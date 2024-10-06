@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4A9D1C8-A37B-71C3-3F73-E4F182A5A1D5" name="Pozicija">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:21:59 UTC</createdTime>
+<ownerDesignName>tim2_nedelja2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pozicija_id" id="B7CA86FA-B8EA-9396-02D9-8DE8EA04EA59">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:22:34 UTC</createdTime>
+<ownerDesignName>tim2_nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="92F420FE-0ABF-23D1-23EC-237F608F2F30">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:22:34 UTC</createdTime>
+<ownerDesignName>tim2_nedelja2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A616A763-5088-327F-A129-F8B5474BF596" name="Pozicija_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:22:34 UTC</createdTime>
+<ownerDesignName>tim2_nedelja2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7CA86FA-B8EA-9396-02D9-8DE8EA04EA59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
