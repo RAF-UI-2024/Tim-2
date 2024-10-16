@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E46142AF-2ED7-1E7A-7745-EE211F8D0FB7" name="Transakcije_racuna">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:12:55 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transakcija_id" id="87E861A1-6D3B-0D53-6F90-4C84683F2371">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:17:46 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="3D1AFC98-649F-5F13-086E-C24FF0EB8C01">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:17:46 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="racun_id" id="932C4F99-1E46-D3C1-498E-4AE2E3202537">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:19:46 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B0728EA-89DA-EC32-6B81-5FC6FEC8AFEA" referredColumn="3C189C4F-18AA-6E30-181F-D3781BAAE7A1"/>
+</associations>
+</Column>
+<Column name="tip_transakcije_id" id="EB5B43D9-0409-3A71-AF95-AF4542F641CB">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:23:21 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7830F1D-43E5-8880-17FE-F2E339D93FED" referredColumn="02311710-3D8A-62F2-771C-22811E122B70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD9E251B-DBFD-CF7A-B319-8D6F15D1B4D0" name="Transakcije_racuna_PK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:17:46 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87E861A1-6D3B-0D53-6F90-4C84683F2371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C25487E-824A-AC56-946A-62ED6F7C8658" name="Transakcije_racuna_Racun_FK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:19:46 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932C4F99-1E46-D3C1-498E-4AE2E3202537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DCD8AAE-C153-8700-8B08-905426921626" name="Transakcije_racuna_Tip_transakcije_FK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:23:21 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5B43D9-0409-3A71-AF95-AF4542F641CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

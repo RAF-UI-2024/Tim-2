@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B62D398-8873-4807-614A-EB77AC2CE1B3" containerWithKeyObject="48635B8C-3CC9-F22C-2713-0150B8264424" localFKIndex="77DD47FD-8B33-08B2-A7F2-A97108D745EB" name="Istorija_radnik_ekspozitura_Ekspozitura_FK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 15:07:23 UTC</createdTime>
+<ownerDesignName>vezbe03_prva_verzija</ownerDesignName>
+<referredTableLongName>Ekspozitura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72C31F57-6D26-B57B-965D-B373E2700C2E</referredTableID>
+<keyObject>D87BA6FC-CD0E-C028-F31F-EC185E6BB322</keyObject>
+<referredKeyID>D87BA6FC-CD0E-C028-F31F-EC185E6BB322</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ekspozitura_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
