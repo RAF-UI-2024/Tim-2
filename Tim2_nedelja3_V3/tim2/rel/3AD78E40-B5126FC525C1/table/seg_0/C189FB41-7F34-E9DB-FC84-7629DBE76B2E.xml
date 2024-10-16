@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C189FB41-7F34-E9DB-FC84-7629DBE76B2E" name="Bankomat">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:14:21 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bankomat_id" id="58A3B569-1714-804F-65F6-141825544658">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:15:50 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="F9CA75A3-5B7D-9803-5DBA-72BAF59DE29B">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:18:14 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad_id" id="55692D8C-8303-1CC9-6C7D-9295E146C4F1">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:28:07 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F2C6E78-524F-9C28-A762-AC34730F16BD" referredColumn="12A40850-6E82-F20C-79B4-2EBE0179A4D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23F5ABE7-6D29-45DF-76BF-04CBC5F2F63B" name="Bankomat_PK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:15:50 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58A3B569-1714-804F-65F6-141825544658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1086487D-320E-9290-3CC7-5ADDAE4F03E5" name="Bankomat_Grad_FK">
+<createdBy>Matija</createdBy>
+<createdTime>2024-10-16 19:28:07 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55692D8C-8303-1CC9-6C7D-9295E146C4F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

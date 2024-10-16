@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D254D49-901B-14B1-A6F4-AA9603BBA6FA" name="Klijent_sef">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:45:27 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sef_id" id="7A7C9D62-29F1-6ADE-6279-631B784DAD3A">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA08A436-4208-2BBD-25EF-19134314B560" referredColumn="8C8A11CA-B3AE-EA5F-5E80-BA545D686C1B"/>
+</associations>
+</Column>
+<Column name="klijent_id" id="68A03C23-5A13-E279-495C-EC2FC2E8F6EE">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F068BF3D-F02B-0189-E89B-1758003F39FD" referredColumn="F457E113-B01D-8D00-2707-AAC93226E7AE"/>
+</associations>
+</Column>
+<Column name="datum_od" id="F854FAFB-3C12-16EF-5D66-FB7FEBB9759A">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="1FF18B54-5EC1-8CEA-6A4C-B2685DD5A2B9">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3C65074-BC5D-CE64-AAEC-8E875FCF4D20" name="Klijent_sef_PK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A7C9D62-29F1-6ADE-6279-631B784DAD3A"/>
+<colUsage columnID="68A03C23-5A13-E279-495C-EC2FC2E8F6EE"/>
+<colUsage columnID="F854FAFB-3C12-16EF-5D66-FB7FEBB9759A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5D14F4E-3BDE-C61E-E8AD-A91B91011462" name="TABLE_27_Klijent_FK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A03C23-5A13-E279-495C-EC2FC2E8F6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DA6B208-04FF-3A33-55CF-61CD0FB75849" name="TABLE_27_Sef_FK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:48:05 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A7C9D62-29F1-6ADE-6279-631B784DAD3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

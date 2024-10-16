@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F96D6BE-C873-B4B5-7613-2D26EEA6AF76" name="Fond">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:05:08 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fond_id" id="8F113D50-213E-2635-00AA-EF936D7132FD">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:06:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_fond_id" id="F5EA9100-C800-C0FE-FC91-6C63AC603252">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:16:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67BF1F00-BC26-693C-AD50-C1A8F68FC021" referredColumn="7BA7CCBC-1972-4FBA-ADF0-EE7482F9E89A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35BA698C-6B74-934F-C096-37B0353379F2" name="Fond_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:06:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F113D50-213E-2635-00AA-EF936D7132FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DAF67C3-08CA-6DB7-C665-26782463AAA7" name="Fond_Tip_fond_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:18:22 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5EA9100-C800-C0FE-FC91-6C63AC603252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

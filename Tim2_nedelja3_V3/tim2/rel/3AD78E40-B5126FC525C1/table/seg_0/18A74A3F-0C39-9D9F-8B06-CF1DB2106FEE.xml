@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A74A3F-0C39-9D9F-8B06-CF1DB2106FEE" name="Telefon">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:46:27 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefon_id" id="739C53C4-5CDC-9F03-A619-7E2EDC7F4394">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:49:03 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="D06C4B4A-9E2B-A693-C2C2-3ABD30B527D6">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:49:03 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osoba_id" id="3FFDB081-9BFD-FA7D-3AEC-26F8570EB102">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:49:03 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D60C171-AF3B-48BB-9DCA-D5E07583217B" referredColumn="75D93A38-8F55-0AA3-7453-E1906A677918"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9085F6FD-A1BC-2D06-2C50-7CD2954BCBC3" name="osoba_telefon_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:49:03 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="739C53C4-5CDC-9F03-A619-7E2EDC7F4394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4A7A8FB-20F7-874E-273E-9BC9BA6145F4" name="Telefon_Osoba_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:51:27 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FFDB081-9BFD-FA7D-3AEC-26F8570EB102"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

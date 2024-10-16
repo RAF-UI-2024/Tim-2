@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72C31F57-6D26-B57B-965D-B373E2700C2E" name="Ekspozitura">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:16:55 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ekspozitura_id" id="2A06F137-F0DF-1B98-D637-853CFC1D2F6A">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:19:53 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="89286C6F-F3AF-1746-F551-C26BAAF0DFFD">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:19:53 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad_id" id="9D5670D9-063D-FDCA-B435-D34C23F02A70">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:19:53 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23E299B6-233A-C0B2-25A8-D3C7B6D686E3" referredColumn="12A40850-6E82-F20C-79B4-2EBE0179A4D8"/>
+</associations>
+</Column>
+<Column name="banka_id" id="A2C2C064-5EE6-AF8E-F14C-1041891C1E15">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 17:00:07 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEE44AC7-D9C2-1721-D624-0C1492A50022" referredColumn="38662735-A766-F3E2-752D-1A74D37602B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D87BA6FC-CD0E-C028-F31F-EC185E6BB322" name="Ekspozitura_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 13:19:53 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A06F137-F0DF-1B98-D637-853CFC1D2F6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3169392-F926-E839-04F1-24A512A6DE63" name="Ekspozitura_Grad_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:17:31 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D5670D9-063D-FDCA-B435-D34C23F02A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2FDD76F-3710-8390-809E-B2B21D89C2FD" name="Ekspozitura_Banka_FK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 17:00:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2C2C064-5EE6-AF8E-F14C-1041891C1E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

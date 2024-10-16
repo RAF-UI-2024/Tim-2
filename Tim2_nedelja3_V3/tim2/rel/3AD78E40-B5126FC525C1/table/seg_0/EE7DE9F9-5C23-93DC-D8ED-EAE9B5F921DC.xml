@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE7DE9F9-5C23-93DC-D8ED-EAE9B5F921DC" name="Klijent_fond">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:27:01 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="klijent_id" id="CF4E514F-C1BE-A780-F248-BB094CE4ABA3">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:28:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D68A384-6A7B-160E-A762-05F6E9FBB9AE" referredColumn="F457E113-B01D-8D00-2707-AAC93226E7AE"/>
+</associations>
+</Column>
+<Column name="fond_id" id="2F547BE5-74CB-16D6-1E07-06B64AD95C61">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:28:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84C80D89-CCCF-BD79-8F32-87C92C6865D2" referredColumn="8F113D50-213E-2635-00AA-EF936D7132FD"/>
+</associations>
+</Column>
+<Column name="ulozeno" id="29963146-96C7-6C8D-62CC-263F3F9BBB4F">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:28:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A00F57E2-41A6-0380-D4EB-85B5016004B0" name="Klijent_fond_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:28:36 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4E514F-C1BE-A780-F248-BB094CE4ABA3"/>
+<colUsage columnID="2F547BE5-74CB-16D6-1E07-06B64AD95C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BCB4BB0-7C48-4429-22AA-5BFD535F5A62" name="Klijent_fond_Klijent_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:28:52 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4E514F-C1BE-A780-F248-BB094CE4ABA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1298CAA0-F82D-02B8-D487-5E27BB744966" name="Klijent_fond_Fond_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:29:03 UTC</createdTime>
+<ownerDesignName>tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F547BE5-74CB-16D6-1E07-06B64AD95C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
