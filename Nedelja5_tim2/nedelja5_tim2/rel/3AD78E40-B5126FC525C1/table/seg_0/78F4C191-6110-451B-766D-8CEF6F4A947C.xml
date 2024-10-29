@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78F4C191-6110-451B-766D-8CEF6F4A947C" name="Klijent">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:07:13 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="osoba_id" id="F457E113-B01D-8D00-2707-AAC93226E7AE">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:07:53 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CDFC0CE-33A2-DE07-C4DC-3D9482F07705" referredColumn="75D93A38-8F55-0AA3-7453-E1906A677918"/>
+</associations>
+</Column>
+<Column name="klijent_id" id="9112CFF5-5FC3-D177-8533-B2D7E3AC3936">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:20:09 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E15F79CE-1328-6C14-3543-2EB4A8AB1508" name="Klijent_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:07:53 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F457E113-B01D-8D00-2707-AAC93226E7AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D33A5D4B-317E-3383-715E-06B263E8A5FC" name="TABLE_16_Osoba_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:07:53 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F457E113-B01D-8D00-2707-AAC93226E7AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

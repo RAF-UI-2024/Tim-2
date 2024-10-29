@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7DC76B5-B3DC-0B00-8CFC-57D69B1D6A00" containerWithKeyObject="C189FB41-7F34-E9DB-FC84-7629DBE76B2E" localFKIndex="B5125125-EA02-14BD-5114-1A60EEF29D81" name="Bankomat_Transakcija_FK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-29 14:03:23 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<referredTableLongName>Transakcija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDEDF439-EEDA-BC41-D773-CB5538180796</referredTableID>
+<keyObject>2B0D3F2B-7D65-5E1D-1738-FC3309E63E1B</keyObject>
+<referredKeyID>2B0D3F2B-7D65-5E1D-1738-FC3309E63E1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>transakcija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

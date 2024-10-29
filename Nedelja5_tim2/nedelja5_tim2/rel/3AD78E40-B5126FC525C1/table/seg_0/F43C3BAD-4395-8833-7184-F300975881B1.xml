@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F43C3BAD-4395-8833-7184-F300975881B1" name="Radnik">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:04:15 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="osoba_id" id="E2907926-6D06-21F6-7D2D-8691454CFDBC">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:05:44 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDBF2EB7-2B55-F77C-18C1-97B4AEFA4199" referredColumn="75D93A38-8F55-0AA3-7453-E1906A677918"/>
+</associations>
+</Column>
+<Column name="sef_id" id="9DA4AF2C-BF53-101B-0835-4DB3C2900204">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:38:28 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="827F4411-979E-BA8F-ECE4-B4E5973E1DFE" referredColumn="E2907926-6D06-21F6-7D2D-8691454CFDBC"/>
+</associations>
+</Column>
+<Column name="radnik_id" id="DA34086A-298E-EA7A-EA52-8B0541D8708A">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:20:31 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="238962B7-BC89-3FC7-9446-11B23FB5AF2A" name="Radnik_PK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:05:44 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2907926-6D06-21F6-7D2D-8691454CFDBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB1B7DBC-ED8C-3DAB-DD33-9A1219B3890D" name="Radnik_Osoba_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 14:05:44 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2907926-6D06-21F6-7D2D-8691454CFDBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF51337-CF9F-7851-A574-EAEB9C832C64" name="Radnik_Radnik_FK">
+<createdBy>helena</createdBy>
+<createdTime>2024-10-06 15:38:47 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA4AF2C-BF53-101B-0835-4DB3C2900204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

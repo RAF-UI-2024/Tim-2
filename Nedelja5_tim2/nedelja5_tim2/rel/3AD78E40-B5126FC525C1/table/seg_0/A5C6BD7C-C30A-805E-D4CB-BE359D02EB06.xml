@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5C6BD7C-C30A-805E-D4CB-BE359D02EB06" name="Banka">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:56:56 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="banka_id" id="38662735-A766-F3E2-752D-1A74D37602B7">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:58:03 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="4C9C9FE5-3AE6-CD70-1005-DE04EA2D2CB7">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:58:03 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad_id" id="3BA2C0DA-8A72-8CA3-C305-9C460D90FADD">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 17:04:49 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71CE3160-C9AB-679B-1686-05157AB3DD30" referredColumn="12A40850-6E82-F20C-79B4-2EBE0179A4D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F4F4FE2-3626-490F-6D59-D50A4BE63744" name="Banka_PK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 16:58:03 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38662735-A766-F3E2-752D-1A74D37602B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01905EEB-96A5-9C50-D8E4-2536FBC03EFC" name="Banka_Grad_FK">
+<createdBy>Master</createdBy>
+<createdTime>2024-10-16 17:05:55 UTC</createdTime>
+<ownerDesignName>nedelja5_tim2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BA2C0DA-8A72-8CA3-C305-9C460D90FADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
